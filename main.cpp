@@ -1,12 +1,9 @@
-﻿#include "main.h"
+#include "main.h"
 #include <windows.h>
 #include <stdlib.h>
 #include <Psapi.h>
 
 using namespace std;
-
-#define PRINTF( f, ... ) { printf( "[+] " f "\n", __VA_ARGS__ ); }
-#define PUTS( s ) { printf( "[+] %s \n", s ); }
 
 #define NtCurrentProcess() ( (HANDLE)(LONG_PTR) -1 )
 
