@@ -7,3 +7,7 @@ this piece of code is using [ZwQueryVirtualMemory](https://learn.microsoft.com/e
 The thing is, official document saids ZwQueryVirtualMemory only support MEMORY_BASIC_INFORMATION, but acrually supports PSAPI_WORKING_SET_EX_INFORMATION under the hood. Idk why maybe it's undocumented behavior?
 
 COOL!
+
+# NullifyZwDetectMemoryRead
+
+an independent code of hooking ZwQueryVirtualMemory to ruin this method. it's a separate code that works individually.
