@@ -1,6 +1,6 @@
 # ZwDetectMemoryRead
 
-This is based on this [gist](https://gist.github.com/dkrutsko/d6118638b0ef711b30bfcfe5b083d067) by [@dkrutsko](https://github.com/dkrutsko). Kudos to him.
+This is based on this [gist](https://gist.github.com/dkrutsko/d6118638b0ef711b30bfcfe5b083d067) by [@dkrutsko](https://github.com/dkrutsko). all credit goes to him.
 
 While this gist is approaching with [QueryWorkingSetEx](https://learn.microsoft.com/en-us/windows/win32/api/psapi/nf-psapi-queryworkingsetex), 
 this piece of code is using [ZwQueryVirtualMemory](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvirtualmemory) which is even lower layer of his.
